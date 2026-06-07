@@ -40,8 +40,10 @@ export default function MagneticButton({
     ghost: 'bg-transparent hover:bg-muted',
   };
 
+  const MotionButton = motion.button as any;
+
   return (
-    <motion.button
+    <MotionButton
       ref={buttonRef}
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
@@ -55,6 +57,6 @@ export default function MagneticButton({
       {...props}
     >
       {children}
-    </motion.button>
+    </MotionButton>
   );
 }
