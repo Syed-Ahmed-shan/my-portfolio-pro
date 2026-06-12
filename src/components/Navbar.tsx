@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
+import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 import { ThemeToggle } from './ThemeToggle';
 import { cn } from '@/lib/utils';
 
@@ -63,6 +64,13 @@ export default function Navbar() {
 
           {/* Actions */}
           <div className="hidden md:flex items-center gap-4">
+            <a href="https://github.com/Syed-Ahmed-shan" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors hover:scale-110">
+              <FaGithub className="w-5 h-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/ahmed-syed-31a60a271/" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors hover:scale-110">
+              <FaLinkedin className="w-5 h-5" />
+            </a>
+            <div className="w-px h-5 bg-border mx-1"></div>
             <ThemeToggle />
             <a
               href="#contact"
@@ -106,10 +114,18 @@ export default function Navbar() {
                   {link.name}
                 </a>
               ))}
+              <div className="flex items-center justify-center gap-6 mt-2 mb-2">
+                <a href="https://github.com/Syed-Ahmed-shan" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors p-2 bg-muted rounded-full">
+                  <FaGithub className="w-6 h-6" />
+                </a>
+                <a href="https://www.linkedin.com/in/ahmed-syed-31a60a271/" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors p-2 bg-muted rounded-full">
+                  <FaLinkedin className="w-6 h-6" />
+                </a>
+              </div>
               <a
                 href="#contact"
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="mt-4 px-5 py-3 text-center text-sm font-medium bg-foreground text-background rounded-full"
+                className="mt-2 px-5 py-3 text-center text-sm font-medium bg-foreground text-background rounded-full"
               >
                 Hire Me
               </a>

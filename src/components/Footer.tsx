@@ -23,7 +23,7 @@ export default function Footer() {
         <div className="flex items-center gap-6">
           <motion.a
             whileHover={{ y: -3 }}
-            href="https://github.com/Syed-Ahmed-shan?tab=repositories"
+            href="https://github.com/Syed-Ahmed-shan"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground hover:text-foreground transition-colors"
