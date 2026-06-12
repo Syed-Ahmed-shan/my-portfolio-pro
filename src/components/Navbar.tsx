@@ -80,8 +80,15 @@ export default function Navbar() {
             </a>
           </div>
 
-          {/* Mobile Menu Toggle */}
-          <div className="flex md:hidden items-center gap-4">
+          {/* Mobile Menu Toggle & Actions */}
+          <div className="flex md:hidden items-center gap-3">
+            <a href="https://github.com/Syed-Ahmed-shan" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors">
+              <FaGithub className="w-5 h-5" />
+            </a>
+            <a href="https://www.linkedin.com/in/ahmed-syed-31a60a271/" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors">
+              <FaLinkedin className="w-5 h-5" />
+            </a>
+            <div className="w-px h-4 bg-border mx-0.5"></div>
             <ThemeToggle />
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
@@ -114,14 +121,6 @@ export default function Navbar() {
                   {link.name}
                 </a>
               ))}
-              <div className="flex items-center justify-center gap-6 mt-2 mb-2">
-                <a href="https://github.com/Syed-Ahmed-shan" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors p-2 bg-muted rounded-full">
-                  <FaGithub className="w-6 h-6" />
-                </a>
-                <a href="https://www.linkedin.com/in/ahmed-syed-31a60a271/" target="_blank" rel="noopener noreferrer" className="text-foreground/80 hover:text-foreground transition-colors p-2 bg-muted rounded-full">
-                  <FaLinkedin className="w-6 h-6" />
-                </a>
-              </div>
               <a
                 href="#contact"
                 onClick={() => setIsMobileMenuOpen(false)}
