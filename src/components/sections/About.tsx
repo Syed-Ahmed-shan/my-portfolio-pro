@@ -25,7 +25,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16 text-lg text-muted-foreground leading-relaxed">
             <div>
               <p className="mb-6">
-                I am currently pursuing my B.Tech in Artificial Intelligence & Data Science at Viswam Engineering College. With a strong foundation in Java, Selenium Automation Testing, SQL, and Full Stack Development, I bridge the gap between building software and ensuring its quality.
+                I recently graduated with my B.Tech in Artificial Intelligence & Data Science from Viswam Engineering College. With a strong foundation in Java, Selenium Automation Testing, SQL, and Full Stack Development, I bridge the gap between building software and ensuring its quality.
               </p>
               <p>
                 As the President of the AI & DS Student Association, I actively lead technical events, organize hackathons, and foster a community of tech enthusiasts.

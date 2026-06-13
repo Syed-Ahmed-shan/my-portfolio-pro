@@ -5,24 +5,40 @@ import { motion, useInView } from 'framer-motion';
 
 const skillCategories = [
   {
-    title: 'Programming & Databases',
-    skills: ['Java', 'Core Java (OOP, Collections, Exceptions)', 'SQL', 'PostgreSQL', 'CRUD Operations', 'Joins'],
+    title: 'Programming Languages',
+    skills: ['Java', 'SQL', 'Python', 'HTML', 'CSS', 'JavaScript', 'ASP.NET'],
   },
   {
-    title: 'Automation & Testing',
-    skills: ['Selenium WebDriver', 'TestNG', 'XPath', 'CSS Selectors', 'Manual Testing', 'SDLC & STLC', 'Defect Reporting'],
+    title: 'Automation Testing',
+    skills: ['Selenium WebDriver', 'TestNG', 'XPath', 'Automation Framework Basics', 'Manual Testing'],
   },
   {
-    title: 'Web & Full Stack',
-    skills: ['Next.js', 'React', 'Django', 'Tailwind CSS', 'HTML/CSS', 'JavaScript'],
+    title: 'Database',
+    skills: ['MySQL', 'MongoDB'],
   },
   {
-    title: 'AI & Data Science',
-    skills: ['TensorFlow', 'Scikit-learn', 'OpenCV', 'SHAP', 'Machine Learning', 'Data Analysis'],
+    title: 'Frameworks',
+    skills: ['React.js', 'Express.js', 'Node.js'],
   },
   {
-    title: 'Tools & Version Control',
-    skills: ['Git', 'GitHub', 'IntelliJ IDEA', 'Eclipse', 'Automation Frameworks'],
+    title: 'Tools',
+    skills: ['Git', 'GitHub', 'IntelliJ IDEA', 'Eclipse', 'JIRA', 'JMeter'],
+  },
+  {
+    title: 'Concepts',
+    skills: ['SDLC', 'STLC', 'DBMS', 'AWS & GCP (Basics)', 'Agile Methodology'],
+  },
+  {
+    title: 'Core Java',
+    skills: [
+      'Object-Oriented Programming (OOP)',
+      'Collections Framework',
+      'Exception Handling',
+      'Arrays and Strings',
+      'File Handling',
+      'Multithreading Basics',
+      'JDBC',
+    ],
   },
 ];
 
@@ -51,7 +67,7 @@ export default function Skills() {
         <div className="mb-16">
           <h2 className="text-3xl md:text-5xl font-bold tracking-tighter">Skills & Expertise</h2>
           <p className="text-muted-foreground mt-4 text-lg max-w-2xl">
-            A comprehensive overview of my technical capabilities across software development, AI, and quality assurance.
+            A comprehensive overview of my technical capabilities across software development, automation testing, and quality assurance.
           </p>
         </div>
 
