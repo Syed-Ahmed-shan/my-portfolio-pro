@@ -14,11 +14,11 @@ const skillCategories = [
   },
   {
     title: 'Database',
-    skills: ['MySQL', 'MongoDB'],
+    skills: ['MySQL', 'MongoDB', 'PostgreSQL'],
   },
   {
     title: 'Frameworks',
-    skills: ['React.js', 'Express.js', 'Node.js'],
+    skills: ['React.js', 'Express.js', 'Node.js', 'Redux', 'Spring Boot', 'Spring Data JPA', 'Spring Security'],
   },
   {
     title: 'Tools',

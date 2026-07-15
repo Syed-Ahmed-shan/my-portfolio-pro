@@ -6,14 +6,14 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa6';
 
 const projects = [
   {
-    title: 'The Coca-Cola Cinematic Universe! 🥤✨',
-    description: 'A scroll-driven storytelling experience blurring the lines between a traditional website and a high-budget 3D commercial. Features a custom 173-frame high-resolution video sequence tied to scroll progress.',
-    tech: ['React', 'Vite', 'GSAP', 'Framer Motion', 'Lenis'],
-    github: 'https://github.com/Syed-Ahmed-shan/Coco-Cola-3D-Website.git',
-    linkedin: 'https://www.linkedin.com/posts/ahmed-syed-31a60a271_reactjs-frontenddevelopment-webdesign-activity-7468999288036016129-bUaM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJ53UYBitADLnl0_GX1ylBhwCuxuYVU4Gw',
-    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=600&auto=format&fit=crop'
+    title: 'AI CRM Assistant for Healthcare Professionals',
+    description: 'AI CRM Assistant is an intelligent Customer Relationship Management (CRM) platform designed for pharmaceutical sales representatives to efficiently manage Healthcare Professionals (HCPs), record interactions, generate AI-powered insights, and receive next-best action recommendations.',
+    tech: ['React.js', 'Redux Toolkit', 'Axios', 'FastAPI', 'PostgreSQL', 'Python', 'LangGraph'],
+    github: 'https://github.com/Syed-Ahmed-shan/AI-CRM-HCP.git',
+    linkedin: 'https://www.linkedin.com/posts/ahmed-syed-31a60a271_ai-crm-assistant-for-pharmaceutical-sales-ugcPost-7483081838677303297-rF4i/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJ53UYBitADLnl0_GX1ylBhwCuxuYVU4Gw',
+    image: 'https://vryno.com/wp-content/uploads/2025/09/healthcare-banner-v10.jpg'
   },
-  {
+   {
     title: 'Employee Management System',
     description: 'A comprehensive full-stack system designed to securely and efficiently manage employee tasks, attendance, and reporting. Built on a robust Java backend.',
     tech: ['Spring Boot', 'Spring Data JPA', 'MySQL', 'React', 'Java 17'],
@@ -21,6 +21,15 @@ const projects = [
     linkedin: null,
     image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=600&auto=format&fit=crop'
   },
+  {
+    title: 'The Coca-Cola Cinematic Universe! 🥤✨',
+    description: 'A scroll-driven storytelling experience blurring the lines between a traditional website and a high-budget 3D commercial. Features a custom 173-frame high-resolution video sequence tied to scroll progress.',
+    tech: ['React', 'Vite', 'GSAP', 'Framer Motion', 'Lenis'],
+    github: 'https://github.com/Syed-Ahmed-shan/Coco-Cola-3D-Website.git',
+    linkedin: 'https://www.linkedin.com/posts/ahmed-syed-31a60a271_reactjs-frontenddevelopment-webdesign-activity-7468999288036016129-bUaM?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJ53UYBitADLnl0_GX1ylBhwCuxuYVU4Gw',
+    image: 'https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=600&auto=format&fit=crop'
+  },
+ 
   {
     title: 'Student Tracking Marks App',
     description: 'A secure and scalable application designed to track, store, and manage student academic performance and marks efficiently.',
@@ -43,7 +52,7 @@ const projects = [
     tech: ['Python', 'Pandas', 'Scikit-learn', 'Matplotlib'],
     github: 'https://github.com/Syed-Ahmed-shan/heart-disease-prediction.git',
     linkedin: 'https://www.linkedin.com/posts/ahmed-syed-31a60a271_heart-disease-prediction-system-machine-activity-7346844622381379584-zOc-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEJ53UYBitADLnl0_GX1ylBhwCuxuYVU4Gw',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173ff9e5ee5?q=80&w=600&auto=format&fit=crop'
+    image: 'https://www.slideegg.com/image/catalog/300808-heart-disease-prediction.png'
   },
   {
     title: 'Cyber Security Client Project',
