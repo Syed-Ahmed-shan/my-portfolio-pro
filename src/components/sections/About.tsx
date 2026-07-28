@@ -22,24 +22,25 @@ export default function About() {
             <span className="text-muted-foreground">Passionate about software engineering and quality assurance.</span>
           </h2>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16 text-lg text-muted-foreground leading-relaxed">
-            <div>
-              <p className="mb-6">
-                I recently graduated with my B.Tech in Artificial Intelligence & Data Science from Viswam Engineering College. With a strong foundation in Java, Selenium Automation Testing, SQL, and Full Stack Development, I bridge the gap between building software and ensuring its quality.
-              </p>
-              <p>
-                As the President of the AI & DS Student Association, I actively lead technical events, organize hackathons, and foster a community of tech enthusiasts.
-              </p>
-            </div>
-            <div>
-              <p className="mb-6">
-                Trained professionally in Java Automation Testing with Selenium WebDriver by QSpiders, I bring rigorous testing methodologies (SDLC, STLC) alongside modern development frameworks.
-              </p>
-              <p>
-                My goal is to contribute effectively as a Software Engineer, Full Stack Developer, or QA Automation Engineer by delivering scalable, high-quality solutions.
-              </p>
-            </div>
-          </div>
+         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 mt-16 text-lg text-muted-foreground leading-relaxed">
+  <div>
+    <p className="mb-6">
+      I recently graduated with a B.Tech in Artificial Intelligence & Data Science from Viswam Engineering College. I have hands-on experience in Python application development, Java, Full Stack Development (MERN), and building intelligent, scalable web applications using Object-Oriented Programming, REST APIs, and SQL databases.
+    </p>
+    <p>
+      Beyond development, I actively integrate modern AI technologies such as Large Language Models (LLMs), LangChain, and Retrieval-Augmented Generation (RAG) to create intelligent, user-centric solutions. As the President of the AI & DS Student Association, I have led technical events, hackathons, and innovation-driven initiatives.
+    </p>
+  </div>
+
+  <div>
+    <p className="mb-6">
+      My technical expertise includes Spring Boot, Microservices, Django, Flask, FastAPI, Selenium WebDriver, SDLC, STLC, and cloud platforms including AWS, GCP, and Azure. I focus on writing clean, maintainable code while building secure, scalable, and high-performance applications.
+    </p>
+    <p>
+      I am passionate about software engineering, automation scripting, AI-powered application development, and delivering impactful digital solutions. I am eager to contribute as a Software Engineer, Full Stack Developer, Backend Developer, AI Engineer, or QA Automation Engineer.
+    </p>
+  </div>
+</div>
         </motion.div>
       </div>
     </section>

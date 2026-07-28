@@ -6,7 +6,7 @@ import { motion, useInView } from 'framer-motion';
 const skillCategories = [
   {
     title: 'Programming Languages',
-    skills: ['Java', 'SQL', 'Python', 'HTML', 'CSS', 'JavaScript', 'ASP.NET'],
+    skills: ['Java', 'SQL', 'Python', 'HTML', 'CSS', 'JavaScript'],
   },
   {
     title: 'Automation Testing',
@@ -40,6 +40,31 @@ const skillCategories = [
       'JDBC',
     ],
   },
+    {
+    title: 'Python',
+    skills: [
+      'Object-Oriented Programming (OOP)',
+      'Scripting',
+      
+    ],
+  },
+  {
+    title: ' AI, ML & Data Analytics',
+    skills: [
+      ' Data Analysis & Visualization',
+      'Pandas',
+      'NumPy',
+      'LLM',
+      'LangGraph',
+      'RAG',
+      'Nvidia-Nemotron',
+      'Machine Learning Data Models',
+      'Gemini APIs',
+      'Chatbot/AI Applications',
+      'AI Coding Assistants (GitHub Copilot, Claude Code, OpenAI Codex',      
+    ],
+  },
+  
 ];
 
 export default function Skills() {
