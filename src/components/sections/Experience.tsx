@@ -13,7 +13,7 @@ const experiences = [
   {
     title: 'Python Automation Testing Trainee',
     organization: 'QSpiders',
-    period: 'Recent',s
+    period: 'Recent',
     description: 'Professional training covering Core Python, Selenium WebDriver, TestNG, JDBC Basics, Manual Testing, and Automation Framework basics.',
   },
   {
