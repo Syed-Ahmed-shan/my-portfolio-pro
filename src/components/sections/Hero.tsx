@@ -85,7 +85,7 @@ export default function Hero() {
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tighter leading-tight mb-6">
           <div className="overflow-hidden">
             <span className="reveal-text block bg-clip-text text-transparent bg-gradient-to-b from-foreground to-foreground/70">
-              Syed Ahmed Nawaz
+              Syed Ahmad Nawaz
             </span>
           </div>
         </h1>

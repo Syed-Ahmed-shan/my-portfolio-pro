@@ -5,7 +5,7 @@ import { motion, useInView } from 'framer-motion';
 import { Award } from 'lucide-react';
 
 const certifications = [
-  'Java Automation Testing with Selenium – QSpiders',
+  'Python Automation Testing with Selenium – QSpiders',
   'NPTEL Software Engineering',
   'MERN Stack – AlgoPrep',
   'IBM Cloud Fundamentals',

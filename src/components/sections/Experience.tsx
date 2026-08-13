@@ -11,10 +11,10 @@ const experiences = [
     description: 'Organizing hackathons, conducting technical workshops, managing technical events, and leading student leadership activities.',
   },
   {
-    title: 'Java Automation Testing Trainee',
+    title: 'Python Automation Testing Trainee',
     organization: 'QSpiders',
-    period: 'Recent',
-    description: 'Professional training covering Core Java, Selenium WebDriver, TestNG, JDBC Basics, Manual Testing, and Automation Framework basics.',
+    period: 'Recent',s
+    description: 'Professional training covering Core Python, Selenium WebDriver, TestNG, JDBC Basics, Manual Testing, and Automation Framework basics.',
   },
   {
     title: 'Class Representative (CR)',
