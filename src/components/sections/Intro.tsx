@@ -45,7 +45,7 @@ export default function Intro() {
             <div className="block bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/50 drop-shadow-sm">
               <Typewriter
                 options={{
-                  strings: ['Syed Ahmad Nawaz', 'Custom Software Engineer'],
+                  strings: ['Syed Ahmad Nawaz', 'Software Engineer'],
                   autoStart: true,
                   loop: true,
                   delay: 60,
