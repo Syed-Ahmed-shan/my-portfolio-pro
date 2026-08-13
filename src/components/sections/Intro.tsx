@@ -45,7 +45,7 @@ export default function Intro() {
             <div className="block bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/50 drop-shadow-sm">
               <Typewriter
                 options={{
-                  strings: ['Syed Ahmed Nawaz', 'Software Engineer'],
+                  strings: ['Syed Ahmad Nawaz', 'Custom Software Engineer'],
                   autoStart: true,
                   loop: true,
                   delay: 60,
@@ -62,9 +62,9 @@ export default function Intro() {
             className="mb-10 max-w-xl"
           >
             <p className="text-lg sm:text-xl md:text-2xl text-foreground lg:text-muted-foreground font-medium leading-relaxed drop-shadow-md lg:drop-shadow-none">
-              AI & Data Science Student <span className="mx-2 text-primary/50">•</span> Full Stack Developer
+              AI & Data Science Student <span className="mx-2 text-primary/50">•</span> Custom Software Engineer
               <br />
-              QA Automation Engineer
+              Full Stack Developer<span className="mx-2 text-primary/50">•</span> QA Automation Engineer <br />
             </p>
           </motion.div>
 
